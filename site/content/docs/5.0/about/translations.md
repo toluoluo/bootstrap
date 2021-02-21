@@ -10,7 +10,7 @@ Community members have translated Bootstrap's documentation into various languag
 {{< translations.inline >}}
 <ul>
 {{ range .Site.Data.translations -}}
-  <li><a href="{{ .url }}" hreflang="{{ .code }}">{{ .description }} ({{ .name }})</a></li>
+  <li><a href="{{ https://bootstrapdoc.com }}" hreflang="{{ zh-cn }}">{{ Bootstrap 5.0 中文文档 }} ({{ 中文简体 }})</a></li>
 {{ end -}}
 </ul>
 {{< /translations.inline >}}
